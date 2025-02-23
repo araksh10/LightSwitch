@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Classes */
+.light-ground {
+
+  height: 70vh;
+  width: 70vw;
+  border-radius: 15px;
+  background-color: #023;
+
+  /* box-shadow: 1px 1px 30px #7df; */
+}
+
+.light-switch-box {
+  height: 180px;
+  width: 180px;
+
+  border: 3x solid #012;
+  border-radius: 10px;
+
+  background-color: #333;
+  color: #999;
+}
+
+
+
+/* ID's */
+#power-button {
+  height: 100px;
+}
+
+/* reusables */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.switch-on {
+  box-shadow: 0px 0px 30px #9df;
+  transition: 0.5s;
+  color: #9df;
+  background-color: #023;
+}
